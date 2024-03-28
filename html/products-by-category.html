@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/products-by-category.css">
+    <title>Products by Category</title>
+</head>
+<body>
+    <div class="product-list-container">
+        <h1>Products by Category</h1>
+
+        <!-- Adicione a barra de pesquisa e o botão List Products -->
+        <div class="search-bar">
+            <input type="text" id="categoryInput" placeholder="Enter category">
+            <button id="listProductsBtn">List Products</button>
+        </div>
+
+        <div id="productList"></div>
+    </div>
+
+    <!-- Adicione o botão de voltar para o dashboard -->
+    <button id="goToDashboardBtn">Go to Dashboard</button>
+    
+    <script type="module" src="/js/product-functions.js"></script>
+</body>
+</html>

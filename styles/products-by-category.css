@@ -1,0 +1,76 @@
+/* styles/products-by-category.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.product-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Adicione estilos para a barra de pesquisa e o botão List Products */
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#categoryInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#listProductsBtn {
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#listProductsBtn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para a lista de produtos */
+#productList {
+    list-style: none;
+    padding: 0;
+}
+
+#productList div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Estilos para o botão "Go to Dashboard" */
+#goToDashboardBtn {
+    display: block;
+    margin: 20px auto; /* Centralizar verticalmente e ajustar margens para centralizar horizontalmente */
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#goToDashboardBtn:hover {
+    background-color: #0b7dda;
+}

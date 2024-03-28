@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/searchproduct.css">
+    <title>Search Product</title>
+</head>
+<body>
+    <div class="search-product-container">
+        <h1>Search Product</h1>
+
+        <!-- Barra de pesquisa -->
+        <input type="text" id="searchInput" placeholder="Search by ID, name, or category">
+        <button id="searchBtn">Search</button>
+
+        <!-- Lista de produtos -->
+        <ul id="productList"></ul>
+
+        <!-- Botão para voltar ao dashboard -->
+        <button id="goToDashboardBtn">Back to Dashboard</button>
+    </div>
+
+    <div id="updateForm" style="display: none;">
+        <h2>Update Product</h2>
+        <label for="updateProductId">ID:</label>
+        <input type="text" id="updateProductId" readonly>
+        <label for="updateProductName">Name:</label>
+        <input type="text" id="updateProductName">
+        <label for="updateProductDescription">Description:</label>
+        <input type="text" id="updateProductDescription">
+        <label for="updateProductPrice">Price:</label>
+        <input type="number" id="updateProductPrice">
+        <label for="updateProductCategory">Category:</label>
+        <input type="text" id="updateProductCategory">
+        <button onclick="updateProduct()">Update Product</button>
+        <button id="cancelUpdateBtn">Cancel</button>
+    </div>
+
+    <script type="module" src="/js/product-functions.js"></script>
+</body>
+</html>

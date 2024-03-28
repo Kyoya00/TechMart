@@ -1,0 +1,56 @@
+/* dashboard.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav-menu li {
+    margin-bottom: 10px;
+}
+
+.nav-menu a, .nav-menu button {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-menu a:hover, .nav-menu button:hover {
+    background-color: #0056b3;
+}
+
+/* Adjustments for small screens */
+@media (max-width: 600px) {
+    .dashboard-container {
+        max-width: 100%;
+        margin: 20px;
+    }
+}
